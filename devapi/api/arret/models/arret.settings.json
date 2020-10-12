@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "arrets",
+  "info": {
+    "name": "Arret"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "commune": {
+      "type": "string"
+    },
+    "categ_arret": {
+      "type": "string"
+    },
+    "lignes_pas": {
+      "type": "string"
+    },
+    "Latitude": {
+      "type": "string"
+    },
+    "Longitude": {
+      "type": "string"
+    },
+    "nom_arret": {
+      "type": "string"
+    },
+    "directions": {
+      "type": "string"
+    }
+  }
+}
